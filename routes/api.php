@@ -1,9 +1,9 @@
 <?php
 
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Api\ArabicFontController;
 use App\Http\Controllers\Api\SuraInfoController;
 use App\Http\Controllers\Api\SuraListController;
 use App\Http\Controllers\Api\TranslationController;
@@ -19,6 +19,7 @@ use App\Http\Controllers\Api\TranslationController;
 |
 */
 
+Route::get('arabic-font', [ArabicFontController::class, 'index']);
 // Route::get('translate', [TranslationController::class, 'index']);
 Route::get('sura-list', [SuraListController::class, 'index']);
 Route::get('sura-details/{id}', [SuraInfoController::class, 'getSuraInfo']);
