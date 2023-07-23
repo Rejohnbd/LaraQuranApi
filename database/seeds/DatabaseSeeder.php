@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
             UserTableSeeder::class,
             ArabicFontTableSeeder::class,
             SuraListTableSeeder::class,
-            // SuraInfoTableSeeder::class,
+            SuraInfoTableSeeder::class,
             // SuraInfoDetailsTableSeeder::class
             // TranslationTableSeeder::class,
         ]);

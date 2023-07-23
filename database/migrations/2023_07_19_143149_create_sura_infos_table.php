@@ -15,8 +15,13 @@ class CreateSuraInfosTable extends Migration
     {
         Schema::create('sura_infos', function (Blueprint $table) {
             $table->id();
-            $table->longText('arabic_text');
-            $table->string('audio');
+            $table->unsignedBigInteger('sura_list_id');
+            $table->integer('ayah_no', false);
+            $table->integer('page_no', false);
+            $table->integer('jaz_no', false);
+            $table->longText('arabic');
+            $table->longText('english');
+            $table->longText('bangla');
             $table->timestamps();
         });
     }

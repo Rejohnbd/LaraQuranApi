@@ -10,9 +10,10 @@ use Illuminate\Http\Response;
 
 class SuraInfoController extends Controller
 {
-    public function getSuraInfo($id)
+    public function suraInfo(Request $request)
     {
-        $data = SuraInfo::with('suraDetails')->where('id', $id)->first();
+        // dd($request->all());
+        $data = SuraInfo::where('sura_list_id', $request->sura_id)->get()->groupBy('page_no');
         return response()->json([
             'message'   => 'Sura Details',
             'data'      => $data
