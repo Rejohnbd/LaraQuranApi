@@ -20,8 +20,8 @@ use App\Http\Controllers\Api\TranslationController;
 */
 
 Route::get('arabic-font', [ArabicFontController::class, 'index']);
-// Route::get('translate', [TranslationController::class, 'index']);
 Route::get('sura-list', [SuraListController::class, 'index']);
+// Route::get('translate', [TranslationController::class, 'index']);
 Route::get('sura-details/{id}', [SuraInfoController::class, 'getSuraInfo']);
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

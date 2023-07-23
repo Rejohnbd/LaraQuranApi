@@ -15,8 +15,11 @@ class CreateSuraListsTable extends Migration
     {
         Schema::create('sura_lists', function (Blueprint $table) {
             $table->id();
-            $table->string('lang_code')->unique();
-            $table->longText('sura_list');
+            $table->string('arabic_name');
+            $table->string('english_name');
+            $table->string('english_ayahs_count');
+            $table->string('bangla_name');
+            $table->string('bangla_ayahs_count');
             $table->timestamps();
         });
     }

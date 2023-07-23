@@ -11,11 +11,11 @@ class SuraListController extends Controller
 {
     public function index()
     {
-        $data =  SuraList::where('id', 1)->first();
+        $data =  SuraList::all();
 
         return response()->json([
             'message'   => 'Sura List',
-            'data'      => json_decode($data->sura_list)
+            'data'      => $data
         ], Response::HTTP_OK);
     }
 }
