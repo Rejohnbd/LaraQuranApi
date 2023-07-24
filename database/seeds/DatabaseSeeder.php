@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UserTableSeeder::class,
             ArabicFontTableSeeder::class,
+            ReciterTableSeeder::class,
             SuraListTableSeeder::class,
             SuraInfoTableSeeder::class,
             // SuraInfoDetailsTableSeeder::class
