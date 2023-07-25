@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
             ReciterTableSeeder::class,
             SuraListTableSeeder::class,
             SuraInfoTableSeeder::class,
+            CompleteSuraReciteTableSeeder::class,
+            SuraAyahReciterTableSeeder::class
             // SuraInfoDetailsTableSeeder::class
             // TranslationTableSeeder::class,
         ]);
