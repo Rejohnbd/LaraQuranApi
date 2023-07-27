@@ -29,14 +29,6 @@ class SuraInfoController extends Controller
 
         $ayahsArr = array();
 
-        // $data->map(function ($data, $key) use ($finalData) {
-        //     $mapValue = array('page' => 'page-' . $key, 'data' => $data);
-        //     return $mapValue;
-        //     // array_push($finalData, $mapValue);
-
-        //     // array_pu
-        //     // dd($data, $key);
-        // });
         foreach ($ayahsInfo as $key => $value) {
             foreach ($value as $k => $val) {
                 $ayahReciter = SuraAyahRecite::select('audio')->where('sura_list_id', $val->sura_list_id)->where('reciter_id', $reciterId)->where('ayah_id', $val->ayah_no)->first();

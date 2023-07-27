@@ -12,6 +12,7 @@ class SuraAyahReciterTableSeeder extends Seeder
      */
     public function run()
     {
+        // Sura Fatiha
         SuraAyahRecite::create([
             'sura_list_id'  =>  1,
             'reciter_id'    =>  3,
@@ -58,6 +59,14 @@ class SuraAyahReciterTableSeeder extends Seeder
             'sura_list_id'  =>  1,
             'reciter_id'    =>  3,
             'ayah_id'       =>  7,
+            'audio'         => '/surahs/al-afasy/001007.mp3'
+        ]);
+
+        // Sura Bakara
+        SuraAyahRecite::create([
+            'sura_list_id'  =>  2,
+            'reciter_id'    =>  3,
+            'ayah_id'       =>  1,
             'audio'         => '/surahs/al-afasy/001007.mp3'
         ]);
     }
