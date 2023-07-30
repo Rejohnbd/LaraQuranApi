@@ -13,61 +13,299 @@ class SuraAyahReciterTableSeeder extends Seeder
     public function run()
     {
         // Sura Fatiha
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  1,
-            'audio'         => '/surahs/al-afasy/001001.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  2,
-            'audio'         => '/surahs/al-afasy/001002.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  3,
-            'audio'         => '/surahs/al-afasy/001003.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  4,
-            'audio'         => '/surahs/al-afasy/001004.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  5,
-            'audio'         => '/surahs/al-afasy/001005.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  6,
-            'audio'         => '/surahs/al-afasy/001006.mp3'
-        ]);
-
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  1,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  7,
-            'audio'         => '/surahs/al-afasy/001007.mp3'
-        ]);
-
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 1, 'audio' => '/surahs/al-afasy/001001.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 2, 'audio' => '/surahs/al-afasy/001002.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 3, 'audio' => '/surahs/al-afasy/001003.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 4, 'audio' => '/surahs/al-afasy/001004.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 5, 'audio' => '/surahs/al-afasy/001005.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 6, 'audio' => '/surahs/al-afasy/001006.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 1, 'reciter_id' => 3, 'ayah_id' => 7, 'audio' => '/surahs/al-afasy/001007.mp3']);
         // Sura Bakara
-        SuraAyahRecite::create([
-            'sura_list_id'  =>  2,
-            'reciter_id'    =>  3,
-            'ayah_id'       =>  1,
-            'audio'         => '/surahs/al-afasy/001007.mp3'
-        ]);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 1, 'audio' => '/surahs/al-afasy/002001.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 2, 'audio' => '/surahs/al-afasy/002002.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 3, 'audio' => '/surahs/al-afasy/002003.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 4, 'audio' => '/surahs/al-afasy/002004.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 5, 'audio' => '/surahs/al-afasy/002005.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 6, 'audio' => '/surahs/al-afasy/002006.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 7, 'audio' => '/surahs/al-afasy/002007.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 8, 'audio' => '/surahs/al-afasy/002008.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 9, 'audio' => '/surahs/al-afasy/002009.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 10, 'audio' => '/surahs/al-afasy/002010.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 11, 'audio' => '/surahs/al-afasy/002011.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 12, 'audio' => '/surahs/al-afasy/002012.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 13, 'audio' => '/surahs/al-afasy/002013.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 14, 'audio' => '/surahs/al-afasy/002014.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 15, 'audio' => '/surahs/al-afasy/002015.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 16, 'audio' => '/surahs/al-afasy/002016.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 17, 'audio' => '/surahs/al-afasy/002017.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 18, 'audio' => '/surahs/al-afasy/002018.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 19, 'audio' => '/surahs/al-afasy/002019.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 20, 'audio' => '/surahs/al-afasy/002020.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 21, 'audio' => '/surahs/al-afasy/002021.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 22, 'audio' => '/surahs/al-afasy/002022.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 23, 'audio' => '/surahs/al-afasy/002023.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 24, 'audio' => '/surahs/al-afasy/002024.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 25, 'audio' => '/surahs/al-afasy/002025.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 26, 'audio' => '/surahs/al-afasy/002026.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 27, 'audio' => '/surahs/al-afasy/002027.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 28, 'audio' => '/surahs/al-afasy/002028.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 29, 'audio' => '/surahs/al-afasy/002029.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 30, 'audio' => '/surahs/al-afasy/002030.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 31, 'audio' => '/surahs/al-afasy/002031.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 32, 'audio' => '/surahs/al-afasy/002032.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 33, 'audio' => '/surahs/al-afasy/002033.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 34, 'audio' => '/surahs/al-afasy/002034.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 35, 'audio' => '/surahs/al-afasy/002035.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 36, 'audio' => '/surahs/al-afasy/002036.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 37, 'audio' => '/surahs/al-afasy/002037.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 38, 'audio' => '/surahs/al-afasy/002038.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 39, 'audio' => '/surahs/al-afasy/002039.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 40, 'audio' => '/surahs/al-afasy/002040.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 41, 'audio' => '/surahs/al-afasy/002041.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 42, 'audio' => '/surahs/al-afasy/002042.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 43, 'audio' => '/surahs/al-afasy/002043.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 44, 'audio' => '/surahs/al-afasy/002044.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 45, 'audio' => '/surahs/al-afasy/002045.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 46, 'audio' => '/surahs/al-afasy/002046.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 47, 'audio' => '/surahs/al-afasy/002047.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 48, 'audio' => '/surahs/al-afasy/002048.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 49, 'audio' => '/surahs/al-afasy/002049.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 50, 'audio' => '/surahs/al-afasy/002050.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 51, 'audio' => '/surahs/al-afasy/002051.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 52, 'audio' => '/surahs/al-afasy/002052.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 53, 'audio' => '/surahs/al-afasy/002053.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 54, 'audio' => '/surahs/al-afasy/002054.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 55, 'audio' => '/surahs/al-afasy/002055.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 56, 'audio' => '/surahs/al-afasy/002056.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 57, 'audio' => '/surahs/al-afasy/002057.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 58, 'audio' => '/surahs/al-afasy/002058.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 59, 'audio' => '/surahs/al-afasy/002059.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 60, 'audio' => '/surahs/al-afasy/002060.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 61, 'audio' => '/surahs/al-afasy/002061.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 62, 'audio' => '/surahs/al-afasy/002062.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 63, 'audio' => '/surahs/al-afasy/002063.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 64, 'audio' => '/surahs/al-afasy/002064.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 65, 'audio' => '/surahs/al-afasy/002065.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 66, 'audio' => '/surahs/al-afasy/002066.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 67, 'audio' => '/surahs/al-afasy/002067.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 68, 'audio' => '/surahs/al-afasy/002068.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 69, 'audio' => '/surahs/al-afasy/002069.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 70, 'audio' => '/surahs/al-afasy/002070.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 71, 'audio' => '/surahs/al-afasy/002071.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 72, 'audio' => '/surahs/al-afasy/002072.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 73, 'audio' => '/surahs/al-afasy/002073.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 74, 'audio' => '/surahs/al-afasy/002074.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 75, 'audio' => '/surahs/al-afasy/002075.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 76, 'audio' => '/surahs/al-afasy/002076.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 77, 'audio' => '/surahs/al-afasy/002077.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 78, 'audio' => '/surahs/al-afasy/002078.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 79, 'audio' => '/surahs/al-afasy/002079.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 80, 'audio' => '/surahs/al-afasy/002080.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 81, 'audio' => '/surahs/al-afasy/002081.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 82, 'audio' => '/surahs/al-afasy/002082.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 83, 'audio' => '/surahs/al-afasy/002083.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 84, 'audio' => '/surahs/al-afasy/002084.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 85, 'audio' => '/surahs/al-afasy/002085.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 86, 'audio' => '/surahs/al-afasy/002086.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 87, 'audio' => '/surahs/al-afasy/002087.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 88, 'audio' => '/surahs/al-afasy/002088.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 89, 'audio' => '/surahs/al-afasy/002089.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 90, 'audio' => '/surahs/al-afasy/002090.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 91, 'audio' => '/surahs/al-afasy/002091.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 92, 'audio' => '/surahs/al-afasy/002092.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 93, 'audio' => '/surahs/al-afasy/002093.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 94, 'audio' => '/surahs/al-afasy/002094.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 95, 'audio' => '/surahs/al-afasy/002095.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 96, 'audio' => '/surahs/al-afasy/002096.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 97, 'audio' => '/surahs/al-afasy/002097.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 98, 'audio' => '/surahs/al-afasy/002098.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 99, 'audio' => '/surahs/al-afasy/002099.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 100, 'audio' => '/surahs/al-afasy/002100.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 101, 'audio' => '/surahs/al-afasy/002101.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 102, 'audio' => '/surahs/al-afasy/002102.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 103, 'audio' => '/surahs/al-afasy/002103.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 104, 'audio' => '/surahs/al-afasy/002104.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 105, 'audio' => '/surahs/al-afasy/002105.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 106, 'audio' => '/surahs/al-afasy/002106.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 107, 'audio' => '/surahs/al-afasy/002107.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 108, 'audio' => '/surahs/al-afasy/002108.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 109, 'audio' => '/surahs/al-afasy/002109.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 110, 'audio' => '/surahs/al-afasy/002110.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 111, 'audio' => '/surahs/al-afasy/002111.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 112, 'audio' => '/surahs/al-afasy/002112.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 113, 'audio' => '/surahs/al-afasy/002113.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 114, 'audio' => '/surahs/al-afasy/002114.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 115, 'audio' => '/surahs/al-afasy/002115.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 116, 'audio' => '/surahs/al-afasy/002116.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 117, 'audio' => '/surahs/al-afasy/002117.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 118, 'audio' => '/surahs/al-afasy/002118.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 119, 'audio' => '/surahs/al-afasy/002119.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 120, 'audio' => '/surahs/al-afasy/002120.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 121, 'audio' => '/surahs/al-afasy/002121.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 122, 'audio' => '/surahs/al-afasy/002122.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 123, 'audio' => '/surahs/al-afasy/002123.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 124, 'audio' => '/surahs/al-afasy/002124.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 125, 'audio' => '/surahs/al-afasy/002125.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 126, 'audio' => '/surahs/al-afasy/002126.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 127, 'audio' => '/surahs/al-afasy/002127.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 128, 'audio' => '/surahs/al-afasy/002128.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 129, 'audio' => '/surahs/al-afasy/002129.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 130, 'audio' => '/surahs/al-afasy/002130.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 131, 'audio' => '/surahs/al-afasy/002131.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 132, 'audio' => '/surahs/al-afasy/002132.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 133, 'audio' => '/surahs/al-afasy/002133.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 134, 'audio' => '/surahs/al-afasy/002134.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 135, 'audio' => '/surahs/al-afasy/002135.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 136, 'audio' => '/surahs/al-afasy/002136.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 137, 'audio' => '/surahs/al-afasy/002137.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 138, 'audio' => '/surahs/al-afasy/002138.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 139, 'audio' => '/surahs/al-afasy/002139.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 140, 'audio' => '/surahs/al-afasy/002140.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 141, 'audio' => '/surahs/al-afasy/002141.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 142, 'audio' => '/surahs/al-afasy/002142.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 143, 'audio' => '/surahs/al-afasy/002143.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 144, 'audio' => '/surahs/al-afasy/002144.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 145, 'audio' => '/surahs/al-afasy/002145.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 146, 'audio' => '/surahs/al-afasy/002146.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 147, 'audio' => '/surahs/al-afasy/002147.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 148, 'audio' => '/surahs/al-afasy/002148.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 149, 'audio' => '/surahs/al-afasy/002149.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 150, 'audio' => '/surahs/al-afasy/002150.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 151, 'audio' => '/surahs/al-afasy/002151.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 152, 'audio' => '/surahs/al-afasy/002152.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 153, 'audio' => '/surahs/al-afasy/002153.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 154, 'audio' => '/surahs/al-afasy/002154.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 155, 'audio' => '/surahs/al-afasy/002155.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 156, 'audio' => '/surahs/al-afasy/002156.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 157, 'audio' => '/surahs/al-afasy/002157.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 158, 'audio' => '/surahs/al-afasy/002158.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 159, 'audio' => '/surahs/al-afasy/002159.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 160, 'audio' => '/surahs/al-afasy/002160.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 161, 'audio' => '/surahs/al-afasy/002161.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 162, 'audio' => '/surahs/al-afasy/002162.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 163, 'audio' => '/surahs/al-afasy/002163.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 164, 'audio' => '/surahs/al-afasy/002164.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 165, 'audio' => '/surahs/al-afasy/002165.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 166, 'audio' => '/surahs/al-afasy/002166.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 167, 'audio' => '/surahs/al-afasy/002167.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 168, 'audio' => '/surahs/al-afasy/002168.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 169, 'audio' => '/surahs/al-afasy/002169.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 170, 'audio' => '/surahs/al-afasy/002170.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 171, 'audio' => '/surahs/al-afasy/002171.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 172, 'audio' => '/surahs/al-afasy/002172.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 173, 'audio' => '/surahs/al-afasy/002173.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 174, 'audio' => '/surahs/al-afasy/002174.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 175, 'audio' => '/surahs/al-afasy/002175.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 176, 'audio' => '/surahs/al-afasy/002176.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 177, 'audio' => '/surahs/al-afasy/002177.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 178, 'audio' => '/surahs/al-afasy/002178.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 179, 'audio' => '/surahs/al-afasy/002179.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 180, 'audio' => '/surahs/al-afasy/002180.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 181, 'audio' => '/surahs/al-afasy/002181.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 182, 'audio' => '/surahs/al-afasy/002182.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 183, 'audio' => '/surahs/al-afasy/002183.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 185, 'audio' => '/surahs/al-afasy/002185.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 186, 'audio' => '/surahs/al-afasy/002186.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 187, 'audio' => '/surahs/al-afasy/002187.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 188, 'audio' => '/surahs/al-afasy/002188.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 189, 'audio' => '/surahs/al-afasy/002189.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 190, 'audio' => '/surahs/al-afasy/002190.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 191, 'audio' => '/surahs/al-afasy/002191.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 192, 'audio' => '/surahs/al-afasy/002192.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 193, 'audio' => '/surahs/al-afasy/002193.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 194, 'audio' => '/surahs/al-afasy/002194.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 195, 'audio' => '/surahs/al-afasy/002195.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 196, 'audio' => '/surahs/al-afasy/002196.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 197, 'audio' => '/surahs/al-afasy/002197.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 198, 'audio' => '/surahs/al-afasy/002198.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 199, 'audio' => '/surahs/al-afasy/002199.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 200, 'audio' => '/surahs/al-afasy/002200.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 201, 'audio' => '/surahs/al-afasy/002201.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 202, 'audio' => '/surahs/al-afasy/002202.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 203, 'audio' => '/surahs/al-afasy/002203.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 204, 'audio' => '/surahs/al-afasy/002204.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 205, 'audio' => '/surahs/al-afasy/002205.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 206, 'audio' => '/surahs/al-afasy/002206.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 207, 'audio' => '/surahs/al-afasy/002207.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 208, 'audio' => '/surahs/al-afasy/002208.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 209, 'audio' => '/surahs/al-afasy/002209.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 210, 'audio' => '/surahs/al-afasy/002210.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 211, 'audio' => '/surahs/al-afasy/002211.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 212, 'audio' => '/surahs/al-afasy/002212.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 213, 'audio' => '/surahs/al-afasy/002213.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 214, 'audio' => '/surahs/al-afasy/002214.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 215, 'audio' => '/surahs/al-afasy/002215.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 216, 'audio' => '/surahs/al-afasy/002216.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 217, 'audio' => '/surahs/al-afasy/002217.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 218, 'audio' => '/surahs/al-afasy/002218.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 219, 'audio' => '/surahs/al-afasy/002219.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 220, 'audio' => '/surahs/al-afasy/002220.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 221, 'audio' => '/surahs/al-afasy/002221.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 222, 'audio' => '/surahs/al-afasy/002222.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 223, 'audio' => '/surahs/al-afasy/002223.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 224, 'audio' => '/surahs/al-afasy/002224.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 225, 'audio' => '/surahs/al-afasy/002225.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 226, 'audio' => '/surahs/al-afasy/002226.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 227, 'audio' => '/surahs/al-afasy/002227.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 228, 'audio' => '/surahs/al-afasy/002228.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 229, 'audio' => '/surahs/al-afasy/002229.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 230, 'audio' => '/surahs/al-afasy/002230.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 231, 'audio' => '/surahs/al-afasy/002231.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 232, 'audio' => '/surahs/al-afasy/002232.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 233, 'audio' => '/surahs/al-afasy/002233.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 234, 'audio' => '/surahs/al-afasy/002234.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 235, 'audio' => '/surahs/al-afasy/002235.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 236, 'audio' => '/surahs/al-afasy/002236.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 237, 'audio' => '/surahs/al-afasy/002237.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 238, 'audio' => '/surahs/al-afasy/002238.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 239, 'audio' => '/surahs/al-afasy/002239.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 240, 'audio' => '/surahs/al-afasy/002240.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 241, 'audio' => '/surahs/al-afasy/002241.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 242, 'audio' => '/surahs/al-afasy/002242.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 243, 'audio' => '/surahs/al-afasy/002243.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 244, 'audio' => '/surahs/al-afasy/002244.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 245, 'audio' => '/surahs/al-afasy/002245.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 246, 'audio' => '/surahs/al-afasy/002246.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 247, 'audio' => '/surahs/al-afasy/002247.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 248, 'audio' => '/surahs/al-afasy/002248.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 249, 'audio' => '/surahs/al-afasy/002249.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 250, 'audio' => '/surahs/al-afasy/002250.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 251, 'audio' => '/surahs/al-afasy/002251.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 252, 'audio' => '/surahs/al-afasy/002252.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 253, 'audio' => '/surahs/al-afasy/002253.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 254, 'audio' => '/surahs/al-afasy/002254.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 255, 'audio' => '/surahs/al-afasy/002255.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 256, 'audio' => '/surahs/al-afasy/002256.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 257, 'audio' => '/surahs/al-afasy/002257.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 258, 'audio' => '/surahs/al-afasy/002258.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 259, 'audio' => '/surahs/al-afasy/002259.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 260, 'audio' => '/surahs/al-afasy/002260.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 261, 'audio' => '/surahs/al-afasy/002261.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 262, 'audio' => '/surahs/al-afasy/002262.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 263, 'audio' => '/surahs/al-afasy/002263.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 264, 'audio' => '/surahs/al-afasy/002264.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 265, 'audio' => '/surahs/al-afasy/002265.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 266, 'audio' => '/surahs/al-afasy/002266.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 267, 'audio' => '/surahs/al-afasy/002267.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 267, 'audio' => '/surahs/al-afasy/002267.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 268, 'audio' => '/surahs/al-afasy/002268.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 269, 'audio' => '/surahs/al-afasy/002269.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 270, 'audio' => '/surahs/al-afasy/002270.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 271, 'audio' => '/surahs/al-afasy/002271.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 272, 'audio' => '/surahs/al-afasy/002272.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 273, 'audio' => '/surahs/al-afasy/002273.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 274, 'audio' => '/surahs/al-afasy/002274.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 275, 'audio' => '/surahs/al-afasy/002275.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 276, 'audio' => '/surahs/al-afasy/002276.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 277, 'audio' => '/surahs/al-afasy/002277.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 278, 'audio' => '/surahs/al-afasy/002278.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 279, 'audio' => '/surahs/al-afasy/002279.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 280, 'audio' => '/surahs/al-afasy/002280.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 281, 'audio' => '/surahs/al-afasy/002281.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 282, 'audio' => '/surahs/al-afasy/002282.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 283, 'audio' => '/surahs/al-afasy/002283.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 284, 'audio' => '/surahs/al-afasy/002284.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 285, 'audio' => '/surahs/al-afasy/002285.mp3']);
+        SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 286, 'audio' => '/surahs/al-afasy/002286.mp3']);
     }
 }

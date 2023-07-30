@@ -42,6 +42,7 @@ class CompleteSuraReciteTableSeeder extends Seeder
         CompleteSuraRecite::create(['sura_list_id' => 27, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/027.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 28, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/028.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 29, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/029.mp3']);
+        CompleteSuraRecite::create(['sura_list_id' => 30, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/030.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 31, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/031.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 32, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/032.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 33, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/033.mp3']);
@@ -100,6 +101,7 @@ class CompleteSuraReciteTableSeeder extends Seeder
         CompleteSuraRecite::create(['sura_list_id' => 86, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/086.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 87, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/087.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 88, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/088.mp3']);
+        CompleteSuraRecite::create(['sura_list_id' => 89, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/089.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 90, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/090.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 91, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/091.mp3']);
         CompleteSuraRecite::create(['sura_list_id' => 92, 'reciter_id' => 3, 'audio' => '/surahs/al-afasy/092.mp3']);
