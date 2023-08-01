@@ -307,5 +307,15 @@ class SuraAyahReciterTableSeeder extends Seeder
         SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 284, 'audio' => '/surahs/al-afasy/002284.mp3']);
         SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 285, 'audio' => '/surahs/al-afasy/002285.mp3']);
         SuraAyahRecite::create(['sura_list_id' => 2, 'reciter_id' => 3, 'ayah_id' => 286, 'audio' => '/surahs/al-afasy/002286.mp3']);
+        // Sura Al Imraan
+        for ($i = 1; $i <= 200; $i++) {
+            $init = 3000 + $i;
+            SuraAyahRecite::create([
+                'sura_list_id'  => 3,
+                'reciter_id'    => 3,
+                'ayah_id'       => $i,
+                'audio'         => '/surahs/al-afasy/00' . $init . '.mp3'
+            ]);
+        }
     }
 }
