@@ -2943,5 +2943,777 @@ class SuraInfoTableSeeder extends Seeder
             'english'       => 'Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. "Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people."',
             'bangla'        => 'আল্লাহ্ কোনো সত্তার উপরে তার ক্ষমতার অতিরিক্ত দায়িত্ব চাপিয়ে দেন না। তার অনুকূলে রয়েছে সে যা-কিছু অর্জন করেছে, আর তার প্রতিকূলে রয়েছে যা-কিছু সে কামিয়েছে। \'\'আমাদের প্রভু, আমাদের পাকড়াও করো না যদি আমরা ভুলে যাই অথবা ভুল করি, হে আমাদের প্রভু! আর আমাদের উপরে তেমন বোঝা চাপিও না যেমন তুমি তা চাপিয়েছিলে তাদের উপরে যারা ছিল আমাদের পূর্ববর্তী, আমাদের প্রভু! আর আমাদের উপরে তেমন ভার তুলে দিয়ো না যার সামর্থ্য আমাদের নেই। অতএব তুমি আমাদের ক্ষমা করে দাও, আর আমাদের তুমি রক্ষা করে রাখো, আর আমাদের প্রতি তুমি করুণা বর্ষণ করো। তুমিই আমাদের পৃষ্ঠপোষক, অতএব অবিশ্বাসিগোষ্ঠীর বিরুদ্ধে আমাদের তুমি সাহায্য করো।’’'
         ]);
+
+        // Sura Al Imraan
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 1,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'الم',
+            'english'       => 'Alif, Lam, Meem.',
+            'bangla'        => 'আলিফ, লাম, মীম।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 2,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'اللَّهُ لَا إِلَـٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ',
+            'english'       => 'Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence.',
+            'bangla'        => 'আল্লাহ্‌! তিনি ছাড়া অন্য উপাস্য নেই, -- চিরজীবন্ত, সদা-বিদ্যমান।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 3,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ',
+            'english'       => 'He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel.',
+            'bangla'        => 'তিনি তোমার কাছে এই কিতাব অবতারণ করেছেন সত্যের সাথে, -- এর আগে যা এসেছিল তার সত্যসমর্থনরূপে আর তিনি তওরাত ও ইনজীল অবতারণ করেছিলেন --'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 4,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ الْفُرْقَانَ ۗ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَاللَّهُ عَزِيزٌ ذُو انتِقَامٍ',
+            'english'       => 'Before, as guidance for the people. And He revealed the Qur\'an. Indeed, those who disbelieve in the verses of Allah will have a severe punishment, and Allah is exalted in Might, the Owner of Retribution.',
+            'bangla'        => '-- এর আগে, মানুষের জন্য এক একটি পথনির্দেশ হিসেবে, আর তিনি অবতারণ করেছেন এই ফুরকান। নিঃসন্দেহ যারা অবিশ্বাস করে আল্লাহ্‌র বাণীসমূহে, তাদের জন্য রয়েছে ভয়ঙ্কর শাস্তি। আর আল্লাহ্ মহাশক্তিশালী, প্রতিফল দান সুসমর্থ।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 5,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ اللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ',
+            'english'       => 'Indeed, from Allah nothing is hidden in the earth nor in the heaven.',
+            'bangla'        => 'নিঃসন্দেহ আল্লাহ্ সম্পর্কে, -- তাঁর কাছে কিছুই লুকানো নেই পৃথিবীতে, আর মহাকাশেও নেই।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 6,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ',
+            'english'       => 'It is He who forms you in the wombs however He wills. There is no deity except Him, the Exalted in Might, the Wise.',
+            'bangla'        => 'তিনিই সেইজন যিনি তোমাদের গড়ে তোলেন জঠরের ভেতরে যেমন তিনি চান। তিনি ছাড়া কোনো উপাস্য নেই, -- মহাশক্তিশালী, পরমজ্ঞানী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 7,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'هُوَ الَّذِي أَنزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُّحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ ۖ فَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِيلِهِ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّهُ ۗ وَالرَّاسِخُونَ فِي الْعِلْمِ يَقُولُونَ آمَنَّا بِهِ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ',
+            'english'       => 'It is He who has sent down to you, [O Muhammad], the Book; in it are verses [that are] precise - they are the foundation of the Book - and others unspecific. As for those in whose hearts is deviation [from truth], they will follow that of it which is unspecific, seeking discord and seeking an interpretation [suitable to them]. And no one knows its [true] interpretation except Allah. But those firm in knowledge say, "We believe in it. All [of it] is from our Lord." And no one will be reminded except those of understanding.',
+            'bangla'        => 'তিনি সেইজন যিনি তোমার কাছে নাযিল করেছেন এই কিতাব, তার মধ্যে কতকগুলো আয়াত নির্দেশা‌ত্মক -- সেইসব হচ্ছে গ্রন্থের ভিত্তি, আর অপরগুলো রূপক। তবে তাদের বেলা যাদের অন্তরে আছে কুটিলতা তারা অনুসরণ করে এর মধ্যের যেগুলো রূপক, বিরোধ সৃষ্টির কামনায় এবং এর ব্যাখ্যা দেবার প্রচেষ্টায়। আর এর ব্যাখ্যা আর কেউ জানে না আল্লাহ্ ছাড়া। আর যারা জ্ঞানে দৃঢ়প্রতিষ্ঠিত তারা বলে -- \'\'আমরা এতে বিশ্বাস করি, এ-সবই আমাদের প্রভুর কাছ থেকে।’’ আর কেউ মনোযোগ দেয় না কেবল জ্ঞানবান ছাড়া।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 8,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ',
+            'english'       => '[Who say], "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.',
+            'bangla'        => '\'\'আমাদের প্রভু! আমাদের অন্তরকে বিপথগামী করো না আমাদের হেদায়ত করার পরে, আর তোমার নিকট থেকে আমাদের করুণা প্রদান করো। নিঃসন্দেহ তুমি নিজেই পরম বদান্য।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 9,
+            'page_no'       => 50,
+            'jaz_no'        => 3,
+            'arabic'        => 'رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ ۚ إِنَّ اللَّهَ لَا يُخْلِفُ الْمِيعَادَ',
+            'english'       => 'Our Lord, surely You will gather the people for a Day about which there is no doubt. Indeed, Allah does not fail in His promise."',
+            'bangla'        => '\'\'আমাদের প্রভু! অবশ্যই তুমি লোকজনকে সমবেত করতে যাচ্ছো এমন এক দিনের প্রতি যার সন্বন্ধে কোনোও সন্দেহ নেই।’’ নিঃসন্দেহ আল্লাহ্ ধার্য স্থান-কালের কখনো খেলাফ করেন না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 10,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ الَّذِينَ كَفَرُوا لَن تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُم مِّنَ اللَّهِ شَيْئًا ۖ وَأُولَـٰئِكَ هُمْ وَقُودُ النَّارِ',
+            'english'       => 'Indeed, those who disbelieve - never will their wealth or their children avail them against Allah at all. And it is they who are fuel for the Fire.',
+            'bangla'        => 'যারা অবিশ্বাস পোষণ করে, নিঃসন্দেহ আর তারা নিজেরাই হচ্ছে আগুনের ইন্ধন --'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 11,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا بِآيَاتِنَا فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ ۗ وَاللَّهُ شَدِيدُ الْعِقَابِ',
+            'english'       => '[Theirs is] like the custom of the people of Pharaoh and those before them. They denied Our signs, so Allah seized them for their sins. And Allah is severe in penalty.',
+            'bangla'        => 'ফিরআউনের দলের সংগ্রামের মতো, এবং যারা তাদের পূর্ববর্তীদের অন্তর্ভুক্ত ছিল। তারা আমাদের প্রত্যাদেশসমূহে মিথ্যারোপ করেছিল, তাই আল্লাহ্ তাদের পাকড়াও করেছিলেন তাদের অপরাধের জন্য। আর আল্লাহ্ প্রতিফল দানে কঠোর।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 12,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُل لِّلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ الْمِهَادُ',
+            'english'       => 'Say to those who disbelieve, "You will be overcome and gathered together to Hell, and wretched is the resting place."',
+            'bangla'        => 'যারা অবিশ্বাস পোষণ করে তাদের বলো -- \'\'তোমরা শীঘ্রই পরাভূত হবে, আর তোমাদের তাড়িয়ে নেয়া হবে জাহান্নামের দিকে, আর মন্দ সেই বিশ্রামস্থান।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 13,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ الْتَقَتَا ۖ فِئَةٌ تُقَاتِلُ فِي سَبِيلِ اللَّهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ الْعَيْنِ ۚ وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَن يَشَاءُ ۗ إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّأُولِي الْأَبْصَارِ',
+            'english'       => 'Already there has been for you a sign in the two armies which met - one fighting in the cause of Allah and another of disbelievers. They saw them [to be] twice their [own] number by [their] eyesight. But Allah supports with His victory whom He wills. Indeed in that is a lesson for those of vision.',
+            'bangla'        => 'ইতিপূর্বে তোমাদের জন্য একটি নিদর্শন এসেছিল দুই সৈন্যদলের মুখোমুখি হওয়ায় -- একদল যুদ্ধ করছিল আল্লাহ্‌র পথে, আর অন্য দল অবিশ্বাসী, এরা চোখের দেখায় তাদের দেখেছিল নিজেদের দ্বিগুণ। আর আল্লাহ্ তাঁর সাহায্য দিয়ে মদদ করেন যাকে তিনি ইচ্ছে করেন। নিঃসন্দেহ এতে শিক্ষণীয় বিষয় আছে দৃষ্টিবানদের জন্য।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 14,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّهُ عِندَهُ حُسْنُ الْمَآبِ',
+            'english'       => 'Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver, fine branded horses, and cattle and tilled land. That is the enjoyment of worldly life, but Allah has with Him the best return.',
+            'bangla'        => 'মানুষের পক্ষে মনোরম ঠেকে নারীদের সাহচর্যের প্রতি আকর্ষণ, ও সন্তানসন্ততির, ও সোনারূপার জমানো ভান্ডারের, ও সুশিক্ষিত ঘোড়া ও গবাদি-পশুর ও ক্ষেতখামারের। এসব এই দুনিয়ার জীবনের উপকরণ, অথচ আল্লাহ্‌, -- তাঁর কাছে রয়েছে উত্তম নিভৃতে বিশ্রাম।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 15,
+            'page_no'       => 51,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ اتَّقَوْا عِندَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُّطَهَّرَةٌ وَرِضْوَانٌ مِّنَ اللَّهِ ۗ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ',
+            'english'       => 'Say, "Shall I inform you of [something] better than that? For those who fear Allah will be gardens in the presence of their Lord beneath which rivers flow, wherein they abide eternally, and purified spouses and approval from Allah. And Allah is Seeing of [His] servants -',
+            'bangla'        => 'বলো -- \'\'তোমাদের কি এ-সবের চাইতে ভালো জিনিসের খবর দেব? যারা সুপথে চলে তাদের জন্য তাদের প্রভুর কাছে রয়েছ বাগানসমূহ, যাদের নীচে দিয়ে বয়ে যাচ্ছে ঝরনারাজি, সেখানে তারা থাকবে চিরকাল, আর পবিত্র সঙ্গিসাথী, আর আল্লাহ্‌র সন্তষ্টি। আর আল্লাহ্ বান্দাদের পর্যবেক্ষক --'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 16,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ',
+            'english'       => 'Those who say, "Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire,"',
+            'bangla'        => '\'\'যারা বলে -- \'আমাদের প্রভু! আমরা নিশ্চয়ই ঈমান এনেছি, অতএব আমাদের অপরাধ থেকে তুমি আমাদের ত্রাণ করো, আর আগুনের যাতনা থেকে আমাদের রক্ষা করো’।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 17,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ',
+            'english'       => 'The patient, the true, the obedient, those who spend [in the way of Allah], and those who seek forgiveness before dawn.',
+            'bangla'        => '\'\'ধৈর্যশীল, আর সত্যপরায়ণ আর অনুগত, আর দানশীল, আর প্রাতে পরিত্রাণ প্রার্থী।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 18,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'شَهِدَ اللَّهُ أَنَّهُ لَا إِلَـٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ',
+            'english'       => 'Allah witnesses that there is no deity except Him, and [so do] the angels and those of knowledge - [that He is] maintaining [creation] in justice. There is no deity except Him, the Exalted in Might, the Wise.',
+            'bangla'        => 'আল্লাহ্ সাক্ষ্য দিচ্ছেন যে তিনি ছাড়া আর কোনো উপাস্য নেই, আর ফিরিশ্‌তারাও, আর জ্ঞানের অধিকারীরা ন্যায়ে অধিষ্ঠিত হয়ে। তিনি ছাড়া কোনো উপাস্য নেই, মহাশক্তিশালী, পরমজ্ঞানী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 19,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ الدِّينَ عِندَ اللَّهِ الْإِسْلَامُ ۗ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِآيَاتِ اللَّهِ فَإِنَّ اللَّهَ سَرِيعُ الْحِسَابِ',
+            'english'       => 'Indeed, the religion in the sight of Allah is Islam. And those who were given the Scripture did not differ except after knowledge had come to them - out of jealous animosity between themselves. And whoever disbelieves in the verses of Allah, then indeed, Allah is swift in [taking] account.',
+            'bangla'        => 'নিঃসন্দেহ আল্লাহ্‌র কাছে ধর্ম হচ্ছে ইসলাম। আর যাদের কিতাব দেয়া হয়েছিল তারা মতভেদ করে নি, শুধু তারা ব্যতীত যাদের কাছে জ্ঞানের বিষয় আসার পরেও নিজেদের মধ্যে ঈর্ষাবিদ্বেষ করেছিল, আর যে কেউ আল্লাহ্‌র নির্দেশের প্রতি অবিশ্বাস পোষণ করে -- নিঃসন্দেহ আল্লাহ্ হিসেব-নিকেশে তৎপর।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 20,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَإِنْ حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّهِ وَمَنِ اتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوا ۖ وَّإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ ۗ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ',
+            'english'       => 'So if they argue with you, say, "I have submitted myself to Allah [in Islam], and [so have] those who follow me." And say to those who were given the Scripture and [to] the unlearned, "Have you submitted yourselves?" And if they submit [in Islam], they are rightly guided; but if they turn away - then upon you is only the [duty of] notification. And Allah is Seeing of [His] servants.',
+            'bangla'        => 'কিন্তু যদি তারা তোমার সাথে হুজ্জত করে, তবে বলো -- \'\'আমি সম্পূর্ণরূপে আল্লাহ্‌র দিকে আমার মুখ রুজু করেছি, আর যারা আমায় অনুসরণ করে।’’ আর তাদের বলো যাদের কিতাব দেয়া হয়েছে আর নিরক্ষরদের, \'\'তোমরা কি আ‌ত্মসমর্পণ করেছ?’’ অতএব যদি তারা আ‌ত্মসমর্পণ করে তবে অবশ্যই তারা হেদায়তপ্রাপ্ত হবে, আর যদি তারা ফিরে যায় তবে নিঃসন্দেহ তোমার উপরে হচ্ছে পৌঁছে দেয়া। আর আল্লাহ্ বান্দাদের দর্শক।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 21,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ',
+            'english'       => 'Those who disbelieve in the signs of Allah and kill the prophets without right and kill those who order justice from among the people - give them tidings of a painful punishment.',
+            'bangla'        => 'নিঃসন্দেহ যারা আল্লাহ্‌র নির্দেশাবলীতে অবিশ্বাস পোষণ করে, আর নবীদের অন্যায়ভাবে হত্যা করতে যায়, আর মানুষদের মধ্যে যারা ন্যায় প্রতিষ্ঠার নির্দেশ দেয় তাদের হত্যা করতে যায়, -- তাদের তুমি সংবাদ দাও ব্যথাময় যাতনার।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 22,
+            'page_no'       => 52,
+            'jaz_no'        => 3,
+            'arabic'        => 'أُولَـٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ',
+            'english'       => 'They are the ones whose deeds have become worthless in this world and the Hereafter, and for them there will be no helpers.',
+            'bangla'        => 'এরাই তারা যাদের সব কাজ বৃথা হবে এই দুনিয়াতে ও আখেরাতে, আর তাদের জন্য সাহায্যকারীদের কেউ থাকবে না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 23,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِّنَ الْكِتَابِ يُدْعَوْنَ إِلَىٰ كِتَابِ اللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ',
+            'english'       => 'Do you not consider, [O Muhammad], those who were given a portion of the Scripture? They are invited to the Scripture of Allah that it should arbitrate between them; then a party of them turns away, and they are refusing.',
+            'bangla'        => 'তুমি কি তাদের দিকে চেয়ে দেখো নি যাদের কিতাবের কিছু অংশ দেয়া হয়েছে? তাদের আহ্বান করা হচ্ছে আল্লাহ্‌র কিতাবের দিকে, যেন ইহা তাদের মধ্যে মীমাংসা করতে পারে। তারপর তাদের মধ্যের একটি দল ফিরে গেল, ফলে তারা হল অগ্রাহ্যকারী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 24,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَن تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَّعْدُودَاتٍ ۖ وَغَرَّهُمْ فِي دِينِهِم مَّا كَانُوا يَفْتَرُونَ',
+            'english'       => 'That is because they say, "Never will the Fire touch us except for [a few] numbered days," and [because] they were deluded in their religion by what they were inventing.',
+            'bangla'        => 'এমন ছিল, কারণ তারা বলে -- \'\'আগুন আমাদের কদাচ স্পর্শ করবে না গুনতির কয়েকটি দিন ছাড়া।’’ আর তাদের ধর্মমতে তারা নিজেদের প্রতারণা করছে তারা যা জালিয়াতি করে চলেছে তার দ্বারা।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 25,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَكَيْفَ إِذَا جَمَعْنَاهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ',
+            'english'       => 'So how will it be when We assemble them for a Day about which there is no doubt? And each soul will be compensated [in full for] what it earned, and they will not be wronged.',
+            'bangla'        => 'কাজেই কেমন হবে, যখন আমরা তাদের জমা করবো এমন এক দিনে যার সন্বন্ধে নেই কোনো সন্দেহ, এবং প্রত্যেক সত্ত্বাকে পুরোপুরি প্রতিদান করা হবে যা সে অর্জন করেছে, আর তাদের প্রতি অন্যায় করা হবে না?'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 26,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ',
+            'english'       => 'Say, "O Allah, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will. You honor whom You will and You humble whom You will. In Your hand is [all] good. Indeed, You are over all things competent.',
+            'bangla'        => 'বলো -- \'\'হে আল্লাহ্‌! সাম্রাজ্যের মালিক! তুমি যাকে ইচ্ছা কর তাকে সাম্রাজ্য প্রদান করো, আবার যার কাছ থেকে ইচ্ছা কর রাজত্ব ছিনিয়ে নাও, আর যাকে খুশী সম্মানিত করো, আবার যাকে খুশী অপমানিত করো, -- তোমার হাতেই রয়েছে কল্যাণ। নিঃসন্দেহ তুমি সব-কিছুর উপরে সর্বশক্তিমান।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 27,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ ۖ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ ۖ وَتَرْزُقُ مَن تَشَاءُ بِغَيْرِ حِسَابٍ',
+            'english'       => 'You cause the night to enter the day, and You cause the day to enter the night; and You bring the living out of the dead, and You bring the dead out of the living. And You give provision to whom You will without account."',
+            'bangla'        => '\'\'তুমি রাতকে প্রবেশ করাও দিনে, আবার দিনকে প্রবেশ করাও রাতে, আর প্রাণবানদের উদগত করো মৃত থেকে, আবার মৃতকে উদগত করো জীবন্ত থেকে, আর যাকে ইচ্ছা কর বেহিসাব রিযেক দান করো।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 28,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'لَّا يَتَّخِذِ الْمُؤْمِنُونَ الْكَافِرِينَ أَوْلِيَاءَ مِن دُونِ الْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ اللَّهِ فِي شَيْءٍ إِلَّا أَن تَتَّقُوا مِنْهُمْ تُقَاةً ۗ وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ ۗ وَإِلَى اللَّهِ الْمَصِيرُ',
+            'english'       => 'Let not believers take disbelievers as allies rather than believers. And whoever [of you] does that has nothing with Allah, except when taking precaution against them in prudence. And Allah warns you of Himself, and to Allah is the [final] destination.',
+            'bangla'        => 'বিশ্বাসীরা যেন বিশ্বাসীদের বাদ দিয়ে অবিশ্বাসীদের বন্ধুরূপে গ্রহণ না করে। আর যে এমন করবে আল্লাহ্‌র কাছ থেকে কোনো কিছুই থাকবে না, তবে যদি তোমরা তাদের থেকে সতর্কতা স্বরূপ হুশিয়াঁর হতে চাও। আর আল্লাহ্ তোমাদের তাঁর সন্বন্ধে সাবধান করেছেন, আর আল্লাহ্‌র দিকেই শেষ গতি।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 29,
+            'page_no'       => 53,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلْ إِن تُخْفُوا مَا فِي صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ اللَّهُ ۗ وَيَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ',
+            'english'       => 'Say, "Whether you conceal what is in your breasts or reveal it, Allah knows it. And He knows that which is in the heavens and that which is on the earth. And Allah is over all things competent.',
+            'bangla'        => 'বলো -- \'\'তোমাদের অন্তরে যা আছে তা লুকিয়ে রাখো, অথবা তা প্রকাশ করো, আল্লাহ্ তা জানেন। আর তিনি জানেন যা-কিছু আছে মহাকাশে ও যা-কিছু পৃথিবীতে। আর আল্লাহ্ সব-কিছুর উপরে সর্বশক্তিমান।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 30,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُ أَمَدًا بَعِيدًا ۗ وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ ۗ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ',
+            'english'       => 'The Day every soul will find what it has done of good present [before it] and what it has done of evil, it will wish that between itself and that [evil] was a great distance. And Allah warns you of Himself, and Allah is Kind to [His] servants."',
+            'bangla'        => 'সেদিন প্রত্যেক সত্ত্বা দেখতে পাবে ভালো যা সে করেছে তা হাজির করা হয়েছে, আর মন্দ যা সে করেছে তাও, সে চাইবে -- তার মধ্যে আর ওর মধ্যে যদি সুদীর্ঘ ব্যবধান থাকতো! কিন্তু আল্লাহ্ তোমাদের সাবধান করছেন তাঁর সন্বন্ধে। আর আল্লাহ্ স্নেহময়।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 31,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلْ إِن كُنتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ',
+            'english'       => 'Say, [O Muhammad], "If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins. And Allah is Forgiving and Merciful."',
+            'bangla'        => 'বলো -- \'\'তোমরা যদি আল্লাহ্‌কে ভালোবাস তবে তোমরা আমায় অনুসরণ করো, তা হলে আল্লাহ্ তোমাদের ভালবাসবেন, আর তোমাদের পরিত্রাণ করবেন তোমাদের অপরাধ থেকে। কেননা আল্লাহ্ পরিত্রাণকারী, অফুরন্ত ফলদাতা।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 32,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلْ أَطِيعُوا اللَّهَ وَالرَّسُولَ ۖ فَإِن تَوَلَّوْا فَإِنَّ اللَّهَ لَا يُحِبُّ الْكَافِرِينَ',
+            'english'       => 'Say, "Obey Allah and the Messenger." But if they turn away - then indeed, Allah does not like the disbelievers.',
+            'bangla'        => 'বলো -- \'\'আল্লাহ্‌র আজ্ঞানুবর্তী হও আর রসূলেরও।’’ কিন্তু যদি তারা ফিরে যায়, তবে নিঃসন্দেহ আল্লাহ্ অবিশ্বাসকারীদের ভালোবাসেন না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 33,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ اللَّهَ اصْطَفَىٰ آدَمَ وَنُوحًا وَآلَ إِبْرَاهِيمَ وَآلَ عِمْرَانَ عَلَى الْعَالَمِينَ',
+            'english'       => 'Indeed, Allah chose Adam and Noah and the family of Abraham and the family of \'Imran over the worlds -',
+            'bangla'        => 'আল্লাহ্ নিশ্চয়ই আদম ও নূহ্ ও ইব্রাহীমের বংশধর, আর ইমরানের পরিবারকে মানবগোষ্ঠীর মধ্যে উচ্চ মর্যাদা দিয়েছিলেন,'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 34,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'ذُرِّيَّةً بَعْضُهَا مِن بَعْضٍ ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ',
+            'english'       => 'Descendants, some of them from others. And Allah is Hearing and Knowing.',
+            'bangla'        => 'এক বংশ পরম্পরা -- একের থেকে তাদের অন্যরা। আর আল্লাহ্ সর্বশ্রোতা, সর্বজ্ঞাতা।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 35,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ',
+            'english'       => '[Mention, O Muhammad], when the wife of \'Imran said, "My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing."',
+            'bangla'        => 'স্মরণ করো! ইমরান বংশের একজন স্ত্রীলোক বললে -- \'\'আমার প্রভু! আমার গর্ভে যে আছে তাকে আমি তোমার জন্য মানত করলাম একান্তভাবে, অতএব আমার থেকে কবুল করো, নিঃসন্দেহ তুমি নিজেই সর্বশ্রোতা, সর্বজ্ঞাতা।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 36,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنثَىٰ ۖ وَإِنِّي سَمَّيْتُهَا مَرْيَمَ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ',
+            'english'       => 'But when she delivered her, she said, "My Lord, I have delivered a female." And Allah was most knowing of what she delivered, "And the male is not like the female. And I have named her Mary, and I seek refuge for her in You and [for] her descendants from Satan, the expelled [from the mercy of Allah]."',
+            'bangla'        => 'তারপর যখন সে তাকে প্রসব করলো, সে বললে -- \'\'প্রভু! আমি কিন্তু তাকে প্রসব করলাম একটি কন্যা!’’ আর আল্লাহ্ ভালো জানেন কি সে প্রসব করলো। আর, বেটাছেলে মেয়েছেলের মতো নয়। \'\'আর আমি তার নাম রাখলাম মরিয়ম, আর আমি অবশ্যই তোমার আশ্রয়ে তাকে রাখছি, আর তার সন্তানসন্ততিকেও, ভ্রষ্ট শয়তানের থেকে।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 37,
+            'page_no'       => 54,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَا مَرْيَمُ أَنَّىٰ لَكِ هَـٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ اللَّهِ ۖ إِنَّ اللَّهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ',
+            'english'       => 'So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zechariah. Every time Zechariah entered upon her in the prayer chamber, he found with her provision. He said, "O Mary, from where is this [coming] to you?" She said, "It is from Allah. Indeed, Allah provides for whom He wills without account."',
+            'bangla'        => 'অতএব তার প্রভু তাকে কবুল করলেন সুন্দর স্বীকৃতির সাথে, ফলে তাকে বর্ধিত করলেন সুন্দর বর্ধনে, আর তাকে সমর্পণ করলেন যাকারিয়ার অভিভাকত্বে। যখন যাকারিয়া তাকে দেখতে উপাসনাস্থলে প্রবেশ করতেন তিনি তার কাছে দেখতে পেতেন রিযেক। তিনি বললেন -- \'\'হে মরিয়ম! এ তোমার কাছে কোথা থেকে?’’ সে বললে -- \'\'এ আল্লাহ্‌র দরবার থেকে।’’ নিঃসন্দেহ আল্লাহ্ যাকে ইচ্ছে করেন তাকে বেহিসাব রিযেক দান করেন।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 38,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ',
+            'english'       => 'At that, Zechariah called upon his Lord, saying, "My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication."',
+            'bangla'        => 'সঙ্গে-সঙ্গে সেইখানেই যাকারিয়া তাঁর প্রভুর কাছে প্রার্থনা করলেন, তিনি বললেন -- \'\'আমার প্রভু! তোমার নিকট থেকে আমাকে একটি উত্তম সন্তান দাও। নিঃসন্দেহ তুমি প্রার্থনার শ্রোতা।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 39,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ',
+            'english'       => 'So the angels called him while he was standing in prayer in the chamber, "Indeed, Allah gives you good tidings of John, confirming a word from Allah and [who will be] honorable, abstaining [from women], and a prophet from among the righteous."',
+            'bangla'        => 'ফিরিশ্‌তারা তাঁকে ডেকে বললে আর তিনি তখন উপাসনাস্থলে নামাযে দাঁড়িয়েছিলেন -- \'\'আল্লাহ্ নিশ্চয়ই আপনাকে সুসংবাদ দিচ্ছেন ইয়াহ্‌য়ার, আল্লাহ্‌র বাণীর সত্যতা প্রতিপন্ন করতে, আর সম্মানিত ও চরিত্রবান, আর সাধুপুরুষদের মধ্য থেকে একজন নবী।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 40,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَقَدْ بَلَغَنِيَ الْكِبَرُ وَامْرَأَتِي عَاقِرٌ ۖ قَالَ كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ',
+            'english'       => 'He said, "My Lord, how will I have a boy when I have reached old age and my wife is barren?" The angel said, "Such is Allah; He does what He wills."',
+            'bangla'        => 'তিনি বললেন -- \'\'আমার প্রভু! কোথা থেকে আমার ছেলে হতে পারে, যখন ইতিপূর্বেই আমার কাছে বার্ধক্য এসে হাজির হয়েছে, আর আমার স্ত্রী বন্ধ্যা?’’ তিনি বললেন -- \'\'এইভাবেই, -- আল্লাহ্ তাই করেন যা তিনি চান।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 41,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'قَالَ رَبِّ اجْعَل لِّي آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَاذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ',
+            'english'       => 'He said, "My Lord, make for me a sign." He Said, "Your sign is that you will not [be able to] speak to the people for three days except by gesture. And remember your Lord much and exalt [Him with praise] in the evening and the morning."',
+            'bangla'        => 'তিনি বললেন -- \'\'আমার প্রভু! আমার জন্য একটি নিদর্শন নির্ধারিত করো।’’ তিনি বললেন -- \'\'তোমার নিদর্শন হচ্ছে এই যে তুমি লোকজনের সাথে তিনদিন কথা বলবে না শুধু ইশারাতে ছাড়া, আর তোমার প্রভুকে খুব করে স্মরণ করো নিশাসমাগমে ও ভোরবেলা।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 42,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ',
+            'english'       => 'And [mention] when the angels said, "O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds.',
+            'bangla'        => 'আর স্মরণ করো! ফিরিশ্‌তারা বললেন -- \'\'হে মরিয়ম! নিশ্চয়ই আল্লাহ্ তোমাকে নির্বাচন করেছেন, আর তোমায় পবিত্র করেছেন, আর বিশ্বজগতের সব নারীর উপরে তোমায় নির্বাচন করেছেন।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 43,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَا مَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ',
+            'english'       => 'O Mary, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer]."',
+            'bangla'        => '\'\'হে মরিয়ম! তোমার প্রভুর অনুগত হয়ে থেকো, আর সিজদা করো ও রুকু করো রুকুকারীদের সাথে।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 44,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'ذَٰلِكَ مِنْ أَنبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَامَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ',
+            'english'       => 'That is from the news of the unseen which We reveal to you, [O Muhammad]. And you were not with them when they cast their pens as to which of them should be responsible for Mary. Nor were you with them when they disputed.',
+            'bangla'        => 'এ হচ্ছে অদৃশ্য বার্তাসমূহের থেকে যে-সব তোমার কাছে আমরা প্রত্যাদিষ্ট করছি। আর তুমি তাদের কাছে ছিলে না যখন তারা তাদের কলম নিক্ষেপ করছিল তাদের মধ্যে কে মরিয়মের ভার নেবে সে সম্পর্কে, আর তুমি তাদের নিকটে ছিলে না যখন তারা পরস্পর বচসা করছিল।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 45,
+            'page_no'       => 55,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ وَجِيهًا فِي الدُّنْيَا وَالْآخِرَةِ وَمِنَ الْمُقَرَّبِينَ',
+            'english'       => '[And mention] when the angels said, "O Mary, indeed Allah gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allah].',
+            'bangla'        => 'স্মরণ করো! ফিরিশ্‌তারা বললে -- \'\'হে মরিয়ম, নিঃসন্দেহ আল্লাহ্ তোমাকে সুসংবাদ দিচ্ছেন তাঁর তরফ থেকে একটি বাণী দ্বারা -- তাঁর নাম হচ্ছে মসীহ্‌, মরিয়ম-পুত্র ঈসা, ইহকালে ও পরকালে সম্মানের যোগ্য, আর নৈকট্যে আনীতদের অন্তর্গত।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 46,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَيُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَمِنَ الصَّالِحِينَ',
+            'english'       => 'He will speak to the people in the cradle and in maturity and will be of the righteous."',
+            'bangla'        => '\'\'আর তিনি লোকদের সাথে কথা বলবেন দোলনায় এবং বার্ধক্যকালে, আর তিনি সুকর্মীদের অন্যতম।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 47,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِي وَلَدٌ وَلَمْ يَمْسَسْنِي بَشَرٌ ۖ قَالَ كَذَٰلِكِ اللَّهُ يَخْلُقُ مَا يَشَاءُ ۚ إِذَا قَضَىٰ أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ',
+            'english'       => 'She said, "My Lord, how will I have a child when no man has touched me?" [The angel] said, "Such is Allah; He creates what He wills. When He decrees a matter, He only says to it, \'Be,\' and it is.',
+            'bangla'        => 'তিনি বললেন -- \'\'আমার প্রভু! কোথা থেকে আমার ছেলে হবে যখন পুরুষমানুষ আমায় স্পর্শ করে নি?’’ তিনি বললেন -- \'\'এইভাবেই, -- আল্লাহ্ তাই সৃষ্টি করেন যা তিনি চান। তিনি যখন কোনো বিষয়ে সিদ্ধান্ত করেন, তিনি তখন সে সন্বন্ধে শুধু বলেন -- \'\'হও’’ আর তা হয়ে যায়।'
+        ]);
+
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 48,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنجِيلَ',
+            'english'       => 'And He will teach him writing and wisdom and the Torah and the Gospel',
+            'bangla'        => '\'\'আর তিনি তাঁকে শেখাবেন কিতাব ও জ্ঞানভান্ডার, আর তওরাত ও ইনজীল।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 49,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَرَسُولًا إِلَىٰ بَنِي إِسْرَائِيلَ أَنِّي قَدْ جِئْتُكُم بِآيَةٍ مِّن رَّبِّكُمْ ۖ أَنِّي أَخْلُقُ لَكُم مِّنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ ۖ وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَىٰ بِإِذْنِ اللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ ۚ إِنَّ فِي ذَٰلِكَ لَآيَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ',
+            'english'       => 'And [make him] a messenger to the Children of Israel, [who will say], \'Indeed I have come to you with a sign from your Lord in that I design for you from clay [that which is] like the form of a bird, then I breathe into it and it becomes a bird by permission of Allah. And I cure the blind and the leper, and I give life to the dead - by permission of Allah. And I inform you of what you eat and what you store in your houses. Indeed in that is a sign for you, if you are believers.',
+            'bangla'        => '\'\'আর ইসরাইল বংশীয়দের জন্য রসূল। \'নিঃসন্দেহ আমি তোমাদের কাছে আসছি তোমাদের প্রভুর কাছ থেকে একটি নিদর্শন নিয়ে, আমি অবশ্যই তোমাদের জন্য মাটি থেকে তৈরি করি পাখির মতো মূর্তি, তারপর তাতে আমি ফুৎকার দিই, তখন সেটি পাখি হয়ে যায় আল্লাহ্‌র ইচ্ছায়। আর আমি আরোগ্য করি অন্ধকে ও কুষ্ঠ রুগীকে, আর আমি জীবন দিই মৃতকে আল্লাহ্‌র ইচ্ছায়। আর আমি তোমাদের খবর দিই যেসব তোমরা খাবে আর যা তোমরা নিজেদের বাড়িতে মজুত রাখো। নিঃসন্দেহ এতে বিশেষ নিদর্শন আছে তোমাদের জন্য যদি তোমরা বিশ্বাসী হও।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 50,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَلِأُحِلَّ لَكُم بَعْضَ الَّذِي حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِآيَةٍ مِّن رَّبِّكُمْ فَاتَّقُوا اللَّهَ وَأَطِيعُونِ',
+            'english'       => 'And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you. And I have come to you with a sign from your Lord, so fear Allah and obey me.',
+            'bangla'        => '\'\'আর তওরাতের যা-কিছু আমার কাছে ছিল আমি তার প্রতিপাদক, আর আমি যাতে তোমাদের জন্য বৈধ করতে পারি কোনো কোনো বিষয় যা তোমাদের জন্য নিষিদ্ধ হয়েছিল, আর আমি তোমাদের কাছে এসেছি তোমাদের প্রভুর কাছ থেকে একটি বাণী নিয়ে, অতএব আল্লাহ্‌কে ভয়-শ্রদ্ধা করো ও আমার অনুগত হও।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 51,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ فَاعْبُدُوهُ ۗ هَـٰذَا صِرَاطٌ مُّسْتَقِيمٌ',
+            'english'       => 'Indeed, Allah is my Lord and your Lord, so worship Him. That is the straight path."',
+            'bangla'        => '\'\'নিঃসন্দেহ আল্লাহ্ আমার প্রভু ও তোমাদেরও প্রভু, অতএব তাঁরই উপাসনা করো, -- এই হচ্ছে সহজ-সঠিক পথ।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 52,
+            'page_no'       => 56,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَلَمَّا أَحَسَّ عِيسَىٰ مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنصَارِي إِلَى اللَّهِ ۖ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنصَارُ اللَّهِ آمَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَ',
+            'english'       => 'But when Jesus felt [persistence in] disbelief from them, he said, "Who are my supporters for [the cause of] Allah?" The disciples said, "We are supporters for Allah. We have believed in Allah and testify that we are Muslims [submitting to Him].',
+            'bangla'        => 'কিন্তু যখন ঈসা তাদের মধ্যে অবিশ্বাস বোধ করলেন, তিনি বললেন -- \'\'কারা আল্লাহ্‌র পথে আমার সাহায্যকারী হবে?’’ হাওয়ারীরা বললে -- \'\'আমরা আল্লাহ্‌র সাহায্যকারী হব, আমরা আল্লাহ্‌তে বিশ্বাস করি, আর তুমি সাক্ষ্য দাও যে আমরা হচ্ছি আ‌ত্মসমর্পণকারী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 53,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'رَبَّنَا آمَنَّا بِمَا أَنزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ',
+            'english'       => 'Our Lord, we have believed in what You revealed and have followed the messenger Jesus, so register us among the witnesses [to truth]."',
+            'bangla'        => '\'\'আমাদের প্রভু! আমরা ঈমান এনেছি তাতে যা তুমি অবতারণ করেছ, আর আমরা রসূলকে অনুসরণ করি, অতএব আমাদের লিখে রাখ সাক্ষ্যদাতাদের সাথে।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 54,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَمَكَرُوا وَمَكَرَ اللَّهُ ۖ وَاللَّهُ خَيْرُ الْمَاكِرِينَ',
+            'english'       => 'And the disbelievers planned, but Allah planned. And Allah is the best of planners.',
+            'bangla'        => 'আর তারা চক্রান্ত করেছিল, আর আল্লাহ্‌ও পরিকল্পনা করেছিলেন। আর আল্লাহ্ পরিকল্পনাকারীদের মধ্যে সর্বোত্তম।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 55,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِذْ قَالَ اللَّهُ يَا عِيسَىٰ إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ الَّذِينَ كَفَرُوا وَجَاعِلُ الَّذِينَ اتَّبَعُوكَ فَوْقَ الَّذِينَ كَفَرُوا إِلَىٰ يَوْمِ الْقِيَامَةِ ۖ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ',
+            'english'       => '[Mention] when Allah said, "O Jesus, indeed I will take you and raise you to Myself and purify you from those who disbelieve and make those who follow you [in submission to Allah alone] superior to those who disbelieve until the Day of Resurrection. Then to Me is your return, and I will judge between you concerning that in which you used to differ.',
+            'bangla'        => 'স্মরণ করো! আল্লাহ্ বললেন -- \'\'হে ঈসা, আমি নিশ্চয়ই তোমার মৃত্যু ঘটাব, এবং আমি তোমাকে আমার দিকে উন্নীত করবো, আর তোমাকে পরিশোধিত করবো যারা অবিশ্বাস পোষণ করে তাদের থেকে, আর যারা তোমায় অনুসরণ করবে তাদের আমি স্থান দেবো যারা অবিশ্বাস পোষণ করে তাদের উপরে কিয়ামতের দিন পর্যন্ত, এরপর আমারই কাছে তোমাদের প্রত্যাবর্তন স্থান, আর আমি তোমাদের মধ্যে বিচার করবো যে-বিষয়ে তোমরা মতভেদ করছিলে সেই বিষয়ে।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 56,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَأَمَّا الَّذِينَ كَفَرُوا فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ',
+            'english'       => 'And as for those who disbelieved, I will punish them with a severe punishment in this world and the Hereafter, and they will have no helpers."',
+            'bangla'        => 'অতএব যারা অবিশ্বাস পোষণ করে আমি তাদের শাস্তি দেবো কঠোর শাস্তিতে এই দুনিয়াতে ও পরলোকে, আর তাদের জন্য সাহায্যকারীদের কেউ থাকবে না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 57,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ',
+            'english'       => 'But as for those who believed and did righteous deeds, He will give them in full their rewards, and Allah does not like the wrongdoers.',
+            'bangla'        => 'আর যারা ঈমান এনেছে ও সুকর্ম করেছে, তিনি তাদের প্রাপ্য পুরোপরি তাদের দেবেন। আর অন্যায়কারীদের আল্লাহ্ ভালোবাসেন না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 58,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ الْآيَاتِ وَالذِّكْرِ الْحَكِيمِ',
+            'english'       => 'This is what We recite to you, [O Muhammad], of [Our] verses and the precise [and wise] message.',
+            'bangla'        => 'এটিই যা আমি তোমার কাছে বর্ণনা করছি নির্দেশবাণী ও জ্ঞানময় স্মারক থেকে।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 59,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ مَثَلَ عِيسَىٰ عِندَ اللَّهِ كَمَثَلِ آدَمَ ۖ خَلَقَهُ مِن تُرَابٍ ثُمَّ قَالَ لَهُ كُن فَيَكُونُ',
+            'english'       => 'Indeed, the example of Jesus to Allah is like that of Adam. He created Him from dust; then He said to him, "Be," and he was.',
+            'bangla'        => 'নিঃসন্দেহ ঈসার দৃষ্টান্ত হচ্ছে আল্লাহ্‌র কাছে আদমের দৃষ্টান্তের মতো। তিনি তাঁকে সৃষ্টি করেছিলেন মাটি থেকে; তারপর তাঁকে বলেছিলেন -- \'\'হও’’ আর তিনি হয়ে গেলেন।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 60,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'الْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ الْمُمْتَرِينَ',
+            'english'       => 'The truth is from your Lord, so do not be among the doubters.',
+            'bangla'        => 'তোমার প্রভুর কাছ থেকে আসা ধ্রুবসত্য, কাজেই সংশয়ীদের দলভুক্ত হয়ো না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 61,
+            'page_no'       => 57,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَمَنْ حَاجَّكَ فِيهِ مِن بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ',
+            'english'       => 'Then whoever argues with you about it after [this] knowledge has come to you - say, "Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then supplicate earnestly [together] and invoke the curse of Allah upon the liars [among us]."',
+            'bangla'        => 'অতএব যারা তোমার সাথে এ-বিষয়ে তর্ক করে তোমার কাছে জ্ঞানের যা এসেছে তার পরেও, তাহলে বলো -- \'\'এসো, আমরা ডেকে আনি আমাদের সন্তানদের ও তোমাদের সন্তানদের, আর আমাদের স্ত্রীলোকদের ও তোমাদের স্ত্রীলোকদের, আর আমাদের লোকজনকে ও তোমাদের লোকজনকে, তারপর কাতর প্রার্থনা করি যেন আল্লাহ্‌র অভিশাপ পড়ে মিথ্যাবাদীদের উপরে।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 62,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ هَـٰذَا لَهُوَ الْقَصَصُ الْحَقُّ ۚ وَمَا مِنْ إِلَـٰهٍ إِلَّا اللَّهُ ۚ وَإِنَّ اللَّهَ لَهُوَ الْعَزِيزُ الْحَكِيمُ',
+            'english'       => 'Indeed, this is the true narration. And there is no deity except Allah. And indeed, Allah is the Exalted in Might, the Wise.',
+            'bangla'        => 'নিঃসন্দেহ এই হচ্ছে যথার্থ সত্য বিবৃতি, আর আল্লাহ্ ছাড়া কোনো উপাস্য নেই। আর নিঃসন্দেহ আল্লাহ্‌, অবশ্যই তিনি মহাশক্তিশালী, পরমজ্ঞানী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 63,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'فَإِن تَوَلَّوْا فَإِنَّ اللَّهَ عَلِيمٌ بِالْمُفْسِدِينَ',
+            'english'       => 'But if they turn away, then indeed - Allah is Knowing of the corrupters.',
+            'bangla'        => 'কিন্তু তারা যদি ফিরে যায়, তাহলে আল্লাহ্ ফসাদকারীদের সম্যক জ্ঞাতা।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 64,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'قُلْ يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ اللَّهِ ۚ فَإِن تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ',
+            'english'       => 'Say, "O People of the Scripture, come to a word that is equitable between us and you - that we will not worship except Allah and not associate anything with Him and not take one another as lords instead of Allah." But if they turn away, then say, "Bear witness that we are Muslims [submitting to Him]."',
+            'bangla'        => 'বলো -- \'\'হে গ্রন্থপ্রাপ্ত লোকেরা, আমাদের মধ্যে ও তোমাদের মধ্যে পরস্পর সমঝোথার মাঝে এসো, যেন আমরা আল্লাহ্ ছাড়া আর কারো এবাদত করবো না, আর তাঁর সাথে অন্য কিছুকে শরীক করবো না, আর আমরা কেউ আল্লাহ্ ছাড়া অন্য কাউকে মনিব বলে গ্রহণ করবো না।’’ কিন্তু তারা যদি ফিরে যায় তবে বলো -- \'\'সাক্ষী থাকো, আমরা কিন্তু মুসলিম।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 65,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ وَمَا أُنزِلَتِ التَّوْرَاةُ وَالْإِنجِيلُ إِلَّا مِن بَعْدِهِ ۚ أَفَلَا تَعْقِلُونَ',
+            'english'       => 'O People of the Scripture, why do you argue about Abraham while the Torah and the Gospel were not revealed until after him? Then will you not reason?',
+            'bangla'        => 'হে গ্রন্থধারিগণ! তোমরা কেন ইব্রাহীম সন্বন্ধে হুজ্জত করো, অথচ তওরাত ও ইনজীল তাঁর পরে ছাড়া অবতীর্ণ হয় নি? তোমরা কি তাহলে বুঝো না?'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 66,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'هَا أَنتُمْ هَـٰؤُلَاءِ حَاجَجْتُمْ فِيمَا لَكُم بِهِ عِلْمٌ فَلِمَ تُحَاجُّونَ فِيمَا لَيْسَ لَكُم بِهِ عِلْمٌ ۚ وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ',
+            'english'       => 'Here you are - those who have argued about that of which you have [some] knowledge, but why do you argue about that of which you have no knowledge? And Allah knows, while you know not.',
+            'bangla'        => 'দেখো! তোমরাই তারা যারা তর্ক করেছ যে-বিষয়ে তোমাদের জ্ঞান ছিল, তবে কেন তোমরা হুজ্জত করছো যে বিষয়ে তোমাদের সম্যক জ্ঞান নেই? আর আল্লাহ্ জানেন, অথচ তোমরা জানো না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 67,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَـٰكِن كَانَ حَنِيفًا مُّسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ',
+            'english'       => 'Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allah]. And he was not of the polytheists.',
+            'bangla'        => 'ইব্রাহীম ইহুদী ছিলেন না, খ্রীষ্টানও নহেন, বরং তিনি ছিলেন ঋজু স্বভাব, মুসলিম, আর তিনি মুশরিকদের অন্তর্ভুক্ত ছিলেন না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 68,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَـٰذَا النَّبِيُّ وَالَّذِينَ آمَنُوا ۗ وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ',
+            'english'       => 'Indeed, the most worthy of Abraham among the people are those who followed him [in submission to Allah] and this prophet, and those who believe [in his message]. And Allah is the ally of the believers.',
+            'bangla'        => 'নিঃসন্দেহ ইব্রাহীমের নিকটতম লোক ছিলেন যাঁরা তাঁকে অনুসরণ করে চলতেন, আর এই নবী, আর যারা ঈমান এনেছে। আর আল্লাহ্ বিশ্বাসীদের রক্ষাকারী বন্ধু।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 69,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَدَّت طَّائِفَةٌ مِّنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنفُسَهُمْ وَمَا يَشْعُرُونَ',
+            'english'       => 'A faction of the people of the Scripture wish they could mislead you. But they do not mislead except themselves, and they perceive [it] not.',
+            'bangla'        => 'গ্রন্থপ্রাপ্তদের একদল চায় তোমাদের বিপথগামী করতে, আর তারা বিপথে নেয় না নিজেদের ছাড়া অন্য কাউকে, আর তারা উপলব্ধি করতে পারছে না।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 70,
+            'page_no'       => 58,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَا أَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ وَأَنتُمْ تَشْهَدُونَ',
+            'english'       => 'O People of the Scripture, why do you disbelieve in the verses of Allah while you witness [to their truth]?',
+            'bangla'        => 'হে গ্রন্থধারিগণ! কেন তোমরা আল্লাহ্‌র নির্দেশে অবিশ্বাস পোষণ করো, যখন তোমরা প্রত্যক্ষদর্শী?'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 71,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَا أَهْلَ الْكِتَابِ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُونَ الْحَقَّ وَأَنتُمْ تَعْلَمُونَ',
+            'english'       => 'O People of the Scripture, why do you confuse the truth with falsehood and conceal the truth while you know [it]?',
+            'bangla'        => 'হে গ্রন্থধারিগণ! কেন তোমরা সত্যকে মিথ্যার পোশাক পরিয়ে দিচ্ছ, আর তোমরা জেনেশুনে সত্যকে লুকোচ্ছ?'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 72,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَقَالَت طَّائِفَةٌ مِّنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِي أُنزِلَ عَلَى الَّذِينَ آمَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوا آخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ',
+            'english'       => 'And a faction of the People of the Scripture say [to each other], "Believe in that which was revealed to the believers at the beginning of the day and reject it at its end that perhaps they will abandon their religion,',
+            'bangla'        => 'আর গ্রন্থপ্রাপ্তদের একদল বলে -- \'\'যারা ঈমান এনেছে তাদের কাছে যা নাযিল হয়েছে তাতে তোমরাও বিশ্বাস করো দিনের আগবেলায়, আর তার অপরাহে প্রত্যাখ্যান করো, যাতে তারাও ফিরে যায়।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 73,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَلَا تُؤْمِنُوا إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ الْهُدَىٰ هُدَى اللَّهِ أَن يُؤْتَىٰ أَحَدٌ مِّثْلَ مَا أُوتِيتُمْ أَوْ يُحَاجُّوكُمْ عِندَ رَبِّكُمْ ۗ قُلْ إِنَّ الْفَضْلَ بِيَدِ اللَّهِ يُؤْتِيهِ مَن يَشَاءُ ۗ وَاللَّهُ وَاسِعٌ عَلِيمٌ',
+            'english'       => 'And do not trust except those who follow your religion." Say, "Indeed, the [true] guidance is the guidance of Allah. [Do you fear] lest someone be given [knowledge] like you were given or that they would [thereby] argue with you before your Lord?" Say, "Indeed, [all] bounty is in the hand of Allah - He grants it to whom He wills. And Allah is all-Encompassing and Wise."',
+            'bangla'        => '\'\'তা ছাড়া যে তোমাদের ধর্ম অনুসরণ করে তাকে ছাড়া ঈমান এনো না।’’ তুমি বলো -- \'\'নিঃসন্দেহ হেদায়ত হচ্ছে আল্লাহ্‌র হেদায়ত, কাজেই তোমাদের যা দেয়া হয়েছিল তার মতো অন্যকে দেয়া হয়েছে, অথবা তারা তোমাদের প্রভুর সামনে তোমাদের উপরে প্রভাব বিস্তার করতে পারে।’’ বলো -- \'\'নিঃসন্দেহ মহত্ত্ব আল্লাহ্‌র হাতে ন্যস্ত, তিনি তা দান করেন যাকে পছন্দ ক রেন। আর আল্লাহ্ মহাবদান্য, সর্বজ্ঞাতা।’’'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 74,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'يَخْتَصُّ بِرَحْمَتِهِ مَن يَشَاءُ ۗ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ',
+            'english'       => 'He selects for His mercy whom He wills. And Allah is the possessor of great bounty.',
+            'bangla'        => 'তিনি তাঁর করুণাবশতঃ নির্বাচিত করেন যাকে পছন্দ করেন, আর আল্লাহ্ বিপুল মহিমার অধিকারী।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 75,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ',
+            'english'       => 'And among the People of the Scripture is he who, if you entrust him with a great amount [of wealth], he will return it to you. And among them is he who, if you entrust him with a [single] silver coin, he will not return it to you unless you are constantly standing over him [demanding it]. That is because they say, "There is no blame upon us concerning the unlearned." And they speak untruth about Allah while they know [it].',
+            'bangla'        => 'আর গ্রন্থপ্রাপ্তদের মধ্যে এমন লোক আছে যার কাছে তুমি যদি একগাদা আমানত রাখো সে তোমাকে তা ফিরিয়ে দেবে, আর তাদের মধ্যে এমনও আছে যার কাছে যদি তুমি একটি দিনার গচ্ছিত রাখো সে তোমাকে তা ফিরিয়ে দেবে না, যদি না তুমি তার কাছে দাঁড়িয়ে থাকো। এইরূপ কারণ তারা বলে -- \'\'অক্ষরজ্ঞানহীনদের ব্যাপারে আমাদের কোনো পথ ধরে চলার দায়িত্ব নেই।’’ আর তারা আল্লাহ্ সন্বন্ধে মিথ্যারোপ করে, যদিও তারা জানে।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 76,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'بَلَىٰ مَنْ أَوْفَىٰ بِعَهْدِهِ وَاتَّقَىٰ فَإِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ',
+            'english'       => 'But yes, whoever fulfills his commitment and fears Allah - then indeed, Allah loves those who fear Him.',
+            'bangla'        => 'হাঁ, যে কেউ তার অঙ্গীকার পালন করে ও ভয়-ভক্তি বজায় রেখে চলে, নিঃসন্দেহ তখন আল্লাহ্ মুত্তাকীদের ভালোবাসেন।'
+        ]);
+
+        SuraInfo::create([
+            'sura_list_id'  => 3,
+            'ayah_no'       => 77,
+            'page_no'       => 59,
+            'jaz_no'        => 3,
+            'arabic'        => 'إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا أُولَـٰئِكَ لَا خَلَاقَ لَهُمْ فِي الْآخِرَةِ وَلَا يُكَلِّمُهُمُ اللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ الْقِيَامَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ',
+            'english'       => 'Indeed, those who exchange the covenant of Allah and their [own] oaths for a small price will have no share in the Hereafter, and Allah will not speak to them or look at them on the Day of Resurrection, nor will He purify them; and they will have a painful punishment.',
+            'bangla'        => 'নিঃসন্দেহ যারা আল্লাহ্‌র অঙ্গীকার ও তাদের প্রতি‌শ্রুতি স্বল্পমূল্যে বিক্রী করে দেয়, তারা -- পরকালে তাদের জন্য কোনো ভাগ থাকবে না, আর আল্লাহ্ তাদের সঙ্গে কথাও বলবেন না বা তাদের দিকে তাকাবেন না কিয়ামতের দিনে, আর তিনি তাদের শুদ্ধও করবেন না, আর তাদের জন্য থাকছে কঠোর যাতনা।'
+        ]);
     }
 }
