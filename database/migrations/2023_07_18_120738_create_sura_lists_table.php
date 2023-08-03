@@ -16,6 +16,7 @@ class CreateSuraListsTable extends Migration
         Schema::create('sura_lists', function (Blueprint $table) {
             $table->id();
             $table->string('arabic_name');
+            $table->integer('total_ayahs', false);
             $table->string('english_name');
             $table->string('english_ayahs_count');
             $table->string('bangla_name');

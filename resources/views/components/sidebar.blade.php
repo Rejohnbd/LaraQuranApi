@@ -18,9 +18,13 @@
                 <li class="nav-item">
                     <a href="{{ route('home') }}" class="nav-link @if(Request::is('home')) active @endif">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>
-                            Dashboard
-                        </p>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('sura-list.index') }}" class="nav-link @if(Request::is('sura-list*')) active @endif">
+                        <i class="nav-icon far fa-calendar-alt"></i>
+                        <p>Sura List</p>
                     </a>
                 </li>
             </ul>
