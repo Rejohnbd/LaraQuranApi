@@ -27,6 +27,12 @@
                         <p>Sura List</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{ route('sura-info.index') }}" class="nav-link @if(Request::is('sura-info*')) active @endif">
+                        <i class="nav-icon far fa-calendar-alt"></i>
+                        <p>Sura Ayah</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

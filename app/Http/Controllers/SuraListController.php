@@ -71,12 +71,12 @@ class SuraListController extends Controller
     public function update(Request $request, SuraList $suraList)
     {
         // Need to apply Validation
-        $suraList->arabic_name = $request->arabic_name;
-        $suraList->total_ayahs = $request->total_ayahs;
-        $suraList->english_name = $request->english_name;
-        $suraList->english_ayahs_count = $request->english_ayahs_count;
-        $suraList->bangla_name = $request->bangla_name;
-        $suraList->bangla_ayahs_count = $request->bangla_ayahs_count;
+        $suraList->arabic_name          = $request->arabic_name;
+        $suraList->total_ayahs          = $request->total_ayahs;
+        $suraList->english_name         = $request->english_name;
+        $suraList->english_ayahs_count  = $request->english_ayahs_count;
+        $suraList->bangla_name          = $request->bangla_name;
+        $suraList->bangla_ayahs_count   = $request->bangla_ayahs_count;
         $suraList->save();
 
         flash()->addSuccess('Sura Info Update Successfully');

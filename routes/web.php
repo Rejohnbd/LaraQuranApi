@@ -26,4 +26,6 @@ Auth::routes([
 Route::middleware('auth')->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
     Route::resource('sura-list', 'SuraListController');
+    Route::resource('sura-info', 'SuraInfoController');
+    Route::post('check-sura-info', 'SuraInfoController@checkSuraInfo')->name('check-sura-info');
 });
